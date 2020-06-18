@@ -25,18 +25,77 @@ html {
     margin: 0 auto;
 }
 
+section {
+    padding: 80px 0px;
+}
+
+.box {
+    padding: 1%;
+}
+
+.box p {
+    font-size: .9rem;
+    line-height: 1.45rem;
+}
+
+/* ------- ICONS ------- */
+
+.icon-big {
+    font-size: 3.5rem;
+    display: block;
+    color: #27ae60;
+    margin-bottom: 10px;
+}
+
 /* -------HEADINGS------- */
 
 
-h1 {
-    margin: 0;
-    font-weight: 200;
-    color: #fff;
-    font-size: 2.4rem;
+h1,
+h2,
+h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
-    word-spacing: 3px;
+    font-weight: 200;
+}
+
+h1 {
+    margin: 0;
     margin-bottom: 15px;
+    color: #fff;
+    font-size: 2.4rem;
+    word-spacing: 3px;
+}
+
+h2 {
+    font-size: 2rem;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    word-spacing: 2px;
+    letter-spacing: unset;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* ------- PARAGRAPHS ------- */
+.long-copy {
+    line-height: 1.45rem;
+    width: 70%;
+    margin-left: 15%;
+}
+
+h2::after {
+    display: block;
+    height: 2px;
+    background-color: #27ae60;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 /* -------BUTTONS------- */
