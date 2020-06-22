@@ -16,6 +16,17 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* ------------------------------------------------- */
 /* REUSABLE COMPS */
 /* ------------------------------------------------- */
@@ -188,4 +199,134 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #27ae60;
+}
+
+/* ------------------------------------------------- */
+/* MEALS */
+/* ------------------------------------------------- */
+
+.section-meals {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    height: 200px;
+    transform: scale(1.15);
+    transition: 0.5s;
+    opacity: .6;
+}
+
+.meal-photo:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.section-features .long-copy {
+    margin-bottom: 40px;
+}
+
+/* ------------------------------------------------- */
+/* HOW IT WORKS */
+/* ------------------------------------------------- */
+.section-steps {
+    background-color: rgb(242, 242, 242);
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step div {
+    color: #27ae60;
+    border: 2px solid #27ae60;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/* ------------------------------------------------- */
+/* CITIES */
+/* ------------------------------------------------- */
+
+.box img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+.city-feature i {
+    color: #27ae60;
+    font-size: 120%;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.city-feature a {
+    text-decoration: none;
+    color: #27ae60;
+    padding-bottom: 1px;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s;
+}
+
+.city-feature a:hover {
+    border-bottom: 2px solid #27ae60;
+    color: rgb(65, 65, 65);
 }
