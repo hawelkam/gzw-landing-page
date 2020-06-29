@@ -58,6 +58,13 @@ section {
     margin-bottom: 10px;
 }
 
+.icon-small {
+    font-size: 1.5rem;
+    color: #27ae60;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
 /* -------HEADINGS------- */
 
 
@@ -157,6 +164,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -330,3 +338,96 @@ header {
     border-bottom: 2px solid #27ae60;
     color: rgb(65, 65, 65);
 }
+
+/* ------------------------------------------------- */
+/* TESTIMONIALS */
+/* ------------------------------------------------- */
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(img/testimonials-background.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -3px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #27ae60;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* ------------------------------------------------- */
+/* PLANS */
+/* ------------------------------------------------- */
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box { 
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px rgb(201, 201, 201);
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+}
+
+.plan-price-month {
+    font-size: 80%;;
+}
+
+.plan-price span {
+    font-size: 30%;;
+}
+
+.plan-box ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+.plan-box div:first-child {
+    background-color: rgb(240, 240, 240);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+}
+
