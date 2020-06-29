@@ -127,6 +127,10 @@ input[type=submit] {
     font-weight: 300;
     border-radius: 200px;
     transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 
 .btn-full:link,
@@ -177,6 +181,10 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .logo {
@@ -208,6 +216,10 @@ header {
     transition: 0.2s;
     border-bottom: 2px solid transparent;
     padding: 5px 0px;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 
 .main-nav li a:hover,
@@ -247,12 +259,28 @@ header {
     transform: scale(1.15);
     transition: 0.5s;
     opacity: .6;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 .meal-photo:hover {
     transform: scale(1.03);
     transition: 0.5s;
     opacity: 1;
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 .section-features .long-copy {
@@ -341,6 +369,10 @@ header {
     padding-bottom: 1px;
     border-bottom: 2px solid transparent;
     transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 
 .city-feature div {
