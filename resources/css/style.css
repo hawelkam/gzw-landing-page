@@ -198,7 +198,9 @@ header {
     margin-left: 40px;
 }
 
-.main-nav li a {
+.main-nav li a,
+.footer-nav li a,
+.social-links li a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -209,7 +211,11 @@ header {
 }
 
 .main-nav li a:hover,
-.main-nav li a:active {
+.main-nav li a:active,
+.footer-nav li a:active, 
+.footer-nav li a:hover,
+.social-links li a:active,
+.social-links li a:hover {
     border-bottom: 2px solid #27ae60;
 }
 
@@ -464,4 +470,47 @@ input[type=checkbox] {
 
 *:focus {
     outline: none;
+}
+
+/* ------------------------------------------------- */
+/* FOOTER */
+/* ------------------------------------------------- */
+
+footer {
+    background-color: rgb(58, 58, 58);
+    color: rgb(172, 172, 172);
+    padding: 30px;
+    font-size: 60%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0px;
+}
+
+.footer-nav li a ,
+.social-links li a {
+    color: rgb(172, 172, 172);
+}
+
+footer p {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 90%;
 }
