@@ -1,0 +1,60 @@
+
+
+/* Small phones */
+@media only screen and (max-width: 480px) {
+    .main-nav li { margin-left: 10px; }
+    .hero-text-box { text-align: center; }
+    .hero-text-box a.btn.btn-full {
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+    cite { margin-bottom: 40px; }
+    form .row { margin: 10px 0; }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+    .city-feature div, .city-feature a { 
+        display: block;
+        margin-bottom: 20px; 
+    }
+}
+
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px) {
+    nav .row { text-align: center; }
+    .logo { float: none; }
+    .main-nav { float: none; }
+    .main-nav li:first-child { margin-left: 0px; }
+    .app-screen { width: 100%; }
+    .works-step { margin-bottom: 30px ;}
+    .works-step:last-of-type { margin-bottom: 50px ;}
+    .btn-app img { height: 35px; }
+    .plan-box div { font-size: 80%; }
+    .city-feature { text-align: center; }
+    .contact-form { width: 100%; }
+}
+
+
+/* Tablets in portrait mode */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 14px; }
+    section { padding: 30px 0; }
+    footer { font-size: 90%;}
+}
+
+/* Tablets in landscape mode */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { padding: 0 2%; }
+
+    .icon-big { text-align: center;}
+    .long-copy { 
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+}
