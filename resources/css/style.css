@@ -231,6 +231,36 @@ header {
     border-bottom: 2px solid #27ae60;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.982);
+    box-shadow: 0 2px 2px rgb(191, 191, 191);
+    z-index: 9999;
+}
+
+.sticky .main-nav li a {
+    color: #555;
+    padding: 15px 0px;
+}
+
+.logo-black {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+    display: none;
+}
+
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
+
+.sticky .main-nav {
+    margin-top: 15px;
+}
+
 /* ------------------------------------------------- */
 /* MEALS */
 /* ------------------------------------------------- */
